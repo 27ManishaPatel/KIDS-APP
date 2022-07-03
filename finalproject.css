@@ -1,0 +1,119 @@
+body {
+    /* CSS Simple selector*/
+    border: rgb(1, 1, 22) 5px ridge;
+    width: 98%;
+}
+
+
+.mainHeader {
+    /* CSS Class selector */
+    background-image: url(https://img.wallpapersafari.com/desktop/800/450/51/48/x7qFIQ.jpg);
+}
+
+.image {
+    margin-left: 100px;
+    /* CSS margin properties are used to create space around elements, outside of any defined borders. */
+    margin-top: 5px;
+    border-radius: 20px;
+    width: 16%;
+}
+
+.header img {
+    background-color: rgb(11, 216, 216);
+    float: right;
+    /* CSS float property specifies how an element should float.*/
+    position: relative;
+    margin-right: 20px;
+    margin-top: 9px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 4%;
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    /*HTML element becomes a grid container when its display property is set to grid or inline-grid.*/
+    grid-template-columns: 70% 30%;
+    /*The grid-template-columns property can be used to specify the size (width) of the columns.*/
+    text-align: center;
+}
+
+.board {
+    margin-top: 180px;
+    margin-left: 210px;
+}
+
+.board h1 {
+    display: inline;
+    /*Display a h1 elements as a horizontal*/
+    font-size: 130px;
+    text-align: center;
+    padding: 20px;
+    font-family: cursive;
+}
+
+.answer {
+    margin-left: 140px;
+    margin-right: 10px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-family: cursive;
+}
+
+.answer h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 60px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 0;
+}
+
+.container {
+    background-image: url(a-girl-and-green-board-vector-1135984.jpeg);
+    background-repeat: no-repeat;
+}
+
+#answer1 {
+    /* CSS Id selector */
+    border: 5px;
+    border-style: outset;
+    border-color: brown;
+    background-color: rgb(240, 100, 130);
+    text-shadow: 5px red;
+
+}
+
+#answer1:hover {
+    /*The CSS :hover selector allows you to select an element when the user hovers over the element with a cursor.*/
+    background-color: rgb(212, 40, 83);
+}
+
+#answer2 {
+    border: 5px;
+    border-style: outset;
+    border-color: rgb(7, 68, 39);
+    background-color: rgb(39, 235, 65);
+    text-shadow: 5px rgb(10, 99, 18);
+
+}
+
+#answer2:hover {
+    background-color: rgb(21, 197, 159);
+}
+
+#answer3 {
+    border: 5px;
+    border-style: outset;
+    border-color: rgb(5, 30, 85);
+    background-color: rgb(76, 127, 223);
+    text-shadow: 5px rgb(82, 16, 16);
+
+}
+
+#answer3:hover {
+    background-color: rgb(141, 29, 145);
+}
